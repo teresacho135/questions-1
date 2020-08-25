@@ -1,5 +1,6 @@
 import React from 'react';
 import StatelessComponent from './components/stateless-components';
+import StatelessComponent2 from './components/stateless-component2';
 
 function App() {
   return (
@@ -11,6 +12,11 @@ function App() {
         props_4={
           { key: "this is the key", value: "this is the value" }
         }
+      />
+      <StatelessComponent2
+        items={[
+          "oranges", 'kiwi', 'bananas', 'mango'
+        ]}
       />
     </div>
   );
