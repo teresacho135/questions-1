@@ -1,7 +1,14 @@
 import React from 'react';
 
-export default function StatelessComponent2() {
+export default function StatelessComponent2(props) {
     return (
-        <div>empty for now.</div>
+        <div>
+            <h1>Smoothie Ingredients</h1>
+                <ul>
+                    {
+                        props.items.map(item => <li>{ item }</li>)
+                    }
+                </ul>
+        </div>
     )
 }
