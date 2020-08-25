@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+import StatelessComponent from './components/stateless-components';
 
 function App() {
   return (
-    <div>Hello React</div>
+    <div>
+      <StatelessComponent />
+    </div>
   );
 }
 
