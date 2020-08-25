@@ -4,7 +4,14 @@ import StatelessComponent from './components/stateless-components';
 function App() {
   return (
     <div>
-      <StatelessComponent />
+      <StatelessComponent 
+        props_1="This is prop 1"
+        props_2={30 + 2}
+        props_3={false}
+        props_4={
+          { key: "this is the key", value: "this is the value" }
+        }
+      />
     </div>
   );
 }
