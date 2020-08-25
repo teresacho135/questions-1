@@ -9,10 +9,10 @@ class StatefulComponent extends React.Component {
     }
     render() {
         return (
-            <div>
+            <ul>
                 <h3>Healthy Green Smoothie Ingredients</h3>
                     {this.state.items.map(item => <li>{ item }</li>)}
-            </div>
+            </ul>
         )
     }
 }
