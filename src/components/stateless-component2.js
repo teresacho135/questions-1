@@ -3,7 +3,7 @@ import React from 'react';
 export default function StatelessComponent2(props) {
     return (
         <div>
-            <h1>Smoothie Ingredients</h1>
+            <h3>Smoothie Ingredients</h3>
                 <ul>
                     {
                         props.items.map(item => <li>{ item }</li>)
